@@ -11,7 +11,12 @@ SECRET_KEY = (
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '51.250.107.216',
+    '127.0.0.1',
+    'localhost',
+    'olegli55.hopto.org',
+]
 
 
 # Application definition
