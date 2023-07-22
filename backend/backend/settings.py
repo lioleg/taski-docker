@@ -8,20 +8,17 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 SECRET_KEY = os.getenv('TOKEN', 'django-insecure')
 
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '51.250.107.216',
-    '127.0.0.1',
-    'localhost',
-    'olegli55.hopto.org',
+    # '51.250.107.216',
+    # '127.0.0.1',
+    # 'localhost',
+    # 'olegli55.hopto.org',
 ]
 
-
-# Application definition
 
 INSTALLED_APPS = [
     'api.apps.ApiConfig',
@@ -93,10 +90,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
-
-# Internationalization
-# https://docs.djangoproject.com/en/3.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
