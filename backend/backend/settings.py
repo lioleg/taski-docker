@@ -13,10 +13,10 @@ SECRET_KEY = os.getenv('TOKEN', 'django-insecure')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    # '51.250.107.216',
-    # '127.0.0.1',
-    # 'localhost',
-    # 'olegli55.hopto.org',
+    '51.250.107.216',
+    '127.0.0.1',
+    'localhost',
+    'olegli55.hopto.org',
 ]
 
 
